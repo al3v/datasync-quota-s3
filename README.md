@@ -2,7 +2,7 @@
 
 **Usage for AWS DataSync Migration (Over 50 Million Files in S3):**
 
-If you plan to use AWS DataSync for migrating data from your S3 bucket and you have more than **50 million** files, this script becomes especially valuable. AWS DataSync has a 50 million file limitation per task. By using this script, you can efficiently folderize your files into subfolders, with each subfolder containing a maximum of 45 million files. This approach allows you to work within the 50 million file limit imposed by AWS DataSync.
+If you plan to use AWS DataSync for migrating data from your S3 bucket and you have more than **💢50 million💢** files, this script becomes especially valuable. AWS DataSync has a 50 million file limitation per task. By using this script, you can efficiently folderize your files into subfolders, with each subfolder containing a maximum of 45 million files. This approach allows you to work within the 50 million file limit imposed by AWS DataSync.
 
 Here's how it helps:
 
