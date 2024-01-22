@@ -28,7 +28,7 @@ Follow these steps to use the script:
 
 1. **Clone or Download:** Clone this repository or download the script to your local machine.
 
-2. **Edit Configuration:** Open the script file `organize-s3-files.sh` in a text editor and customize the following variables:
+2. **Edit Configuration:** Open the script file `s3-file-organizer.sh` in a text editor and customize the following variables:
    
    - `source_bucket`: Specify the name of the source S3 bucket containing your files.
    - `destination_bucket`: By default, it is set to the same as the source bucket. Change it if you want to copy files to a different bucket.
@@ -37,4 +37,4 @@ Follow these steps to use the script:
 3. **Run the Script:** Open your terminal, navigate to the script directory, and run the script using the following command:
    
    ```bash
-   ./organize-s3-files.sh
+   ./s3-file-organizer.sh
