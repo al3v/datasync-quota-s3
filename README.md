@@ -2,7 +2,7 @@
 
 **Usage for AWS DataSync Migration (Over 50 Million Files in S3):**
 
-If you plan to use AWS DataSync for migrating data from your S3 bucket and you have more than **💢50 million💢** files, this script becomes especially valuable. AWS DataSync has a 50 million file limitation per task. By using this script, you can efficiently folderize your files into subfolders, with each subfolder containing a maximum of 45 million files. This approach allows you to work within the 50 million file limit imposed by AWS DataSync.
+If you plan to use AWS DataSync for migrating data from your S3 bucket and you have more than **50 million** files, this script becomes especially valuable. AWS DataSync has a ❗50 million file limitation per task. By using this script, you can efficiently folderize your files into subfolders, with each subfolder containing a maximum of 45 million files. This approach allows you to work within the 50 million file limit imposed by AWS DataSync.
 
 Here's how it helps:
 
@@ -14,7 +14,7 @@ By using this script, you can effectively overcome the file limitation hurdle an
 
 ...
 
-## Prerequisites
+## Prerequisites 🔧
 
 Before using this script, make sure you have the following prerequisites:
 
@@ -22,7 +22,7 @@ Before using this script, make sure you have the following prerequisites:
 
 2. **AWS DataSync:** If you plan to migrate large amounts of data to or from your S3 bucket using AWS DataSync, please be aware of the 50 million file limit per task. This script can help organize your files into subfolders to meet this limit.
 
-## Usage
+## Usage 🐾
 
 Follow these steps to use the script:
 
@@ -34,7 +34,8 @@ Follow these steps to use the script:
    - `destination_bucket`: By default, it is set to the same as the source bucket. Change it if you want to copy files to a different bucket.
    - `files_per_folder`: Define the maximum number of files you want in each subfolder (45 million for AWS DataSync).
 
-3. **Run the Script:** Open your terminal, navigate to the script directory, and run the script using the following command:
+3. **Run the Script:** ▶️
+Open your terminal, navigate to the script directory, and run the script using the following command:
    
    ```bash
    ./s3-file-organizer.sh
