@@ -54,5 +54,22 @@ In this images, you can see an example of the organized subfolders within an AWS
 
 
 
+...
+
+
+
+
+This is what will be seen on terminal.
+The reason you see these messages multiple times is that the script iterates through the list of files in the S3 bucket and performs a copy operation for each file. During each copy operation, it uses the AWS CLI to copy the file from one location to another, and this invokes the AWS CLI multiple times.
+
+You can safely ignore these AWS CLI usage messages in the terminal 😸. They do not affect the functionality of the script, which is working as intended to organize and copy files into subfolders within your S3 bucket.
+
+The last line, "Divided files into folders in alv-s3," is the script's own output message, indicating that the script has successfully organized the files into folders in your S3 bucket.
+
+
+![image](https://github.com/al3v/datasync-quota-s3/assets/73062283/8ee2eab8-b7d8-45b2-bd01-886550a0019c)
+
+
+
 
    
