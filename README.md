@@ -38,3 +38,20 @@ Follow these steps to use the script:
    
    ```bash
    ./s3-file-organizer.sh
+
+
+
+In this images, you can see an example of the organized subfolders within an AWS S3 bucket. The script efficiently distributes files into subfolders, and in this demonstration, I've used the folders "folder-1," "folder-2," and "folder-3" as an example. Each subfolder contains just two or less files for simplicity, but in practice, the script is designed to handle large numbers of files, typically not exceeding 45 million per subfolder, as per the AWS DataSync limitation.
+
+![image](https://github.com/al3v/datasync-quota-s3/assets/73062283/9b157b61-fdd2-42c4-b6fe-e36178e2bd72)
+
+![image](https://github.com/al3v/datasync-quota-s3/assets/73062283/a535a7f8-965d-4123-b787-c9199747e767)
+
+![image](https://github.com/al3v/datasync-quota-s3/assets/73062283/7ee8d65e-04c7-4b57-a29b-dd21edb6afbf)
+
+![image](https://github.com/al3v/datasync-quota-s3/assets/73062283/99b71363-3e9b-4689-ae46-6d5c04019ae8)
+
+
+
+
+   
